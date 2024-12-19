@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Todo-list App</title>
+    <style>
+        
+        .video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1; 
+        }
+    </style>
+</head>
+
+<body class="relative bg-gray-900 text-white">
+
+    
+    <video autoplay muted loop class="video-bg">
+        <source src="./todoapp/videos/Shapes Background Videos- Download 12,011+ Free 4K & HD Stock Footage Clips.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="container">
+    <header class="absolute top-0 left-0 p-4">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+            Todo List App
+        </h1>
+    </header>
+</div>
+
+    
+    <section class="relative z-10 flex items-center justify-center min-h-screen">
+        <div class="container mx-auto px-4 md:px-8 lg:px-16">
+            <div class="lg:flex lg:items-center lg:justify-between">
+                <!-- Left Content -->
+                <div class="text-center lg:text-left lg:w-1/2">
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                        Organize Your Tasks Efficiently
+                    </h1>
+                    <p class="mt-4 text-lg sm:text-xl lg:text-2xl font-light text-gray-300">
+                        Boost your productivity with our simple and intuitive Todo List App. Start organizing your day with ease.
+                    </p>
+                    <p class="mt-6 md:mt-8">
+                        <a href="./todoapp/login-signup/signup.html">
+                            <button type="button" class="py-3 px-6 sm:py-4 sm:px-12 bg-purple-800 hover:bg-purple-600 rounded text-white text-lg">
+                                Get Started
+                            </button>
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="hidden lg:block lg:w-1/2">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
